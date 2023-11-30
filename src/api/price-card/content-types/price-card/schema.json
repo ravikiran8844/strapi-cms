@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "price_cards",
+  "info": {
+    "singularName": "price-card",
+    "pluralName": "price-cards",
+    "displayName": "Price Card",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "goldPricePerGram": {
+      "type": "string",
+      "required": true,
+      "default": "5,652"
+    },
+    "goldPricePerSovereign": {
+      "type": "string",
+      "required": true,
+      "default": "45,200"
+    },
+    "silverPricePerGram": {
+      "type": "string",
+      "required": true,
+      "default": "77.70"
+    },
+    "silverPricePerKilogram": {
+      "type": "string",
+      "required": true,
+      "default": "77,000"
+    }
+  }
+}
